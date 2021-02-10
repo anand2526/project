@@ -1,0 +1,238 @@
+
+#img1{
+    padding-top: 10px;
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+    margin-left: -10px;
+}
+#head2{
+    margin-top: -220px;
+    text-align: center;
+    background-color: #e2e23b;
+    margin-left:-10px;
+    margin-right:-10px;
+    -webkit-text-stroke: 1px red;
+}
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu
+{
+    background: red;
+    text-align: center;
+    margin-top: -18px;
+    margin-left:-10px;
+    margin-right:-10px;
+
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    margin-bottom: -2px;
+}
+.menu ul li {
+    width: 200px;
+    margin:0px;
+    padding:10px;
+
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+.active, .menu ul li:hover
+{
+    background: #c51212;
+    border-radius: 5px;
+}
+.menu .fa{
+    margin-right:8px;
+}
+.submenu1{
+    display: none;
+}
+.menu ul li:hover .submenu1{
+    display: block;
+    position : absolute;
+    background: red;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+.menu ul li:hover .submenu1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .submenu1 ul li
+{
+    width: 180px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 50;
+    text-align: left;
+}
+.menu ul li:hover .submenu1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu ul li:hover .submenu1 ul li a:hover
+{
+    color: #b8d419;
+}
+
+
+#id1
+{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    text-shadow: #a81616;
+    -webkit-text-stroke: 1px rgb(245, 241, 19);  
+}
+#img2{
+    width: 500px;
+    height: 600px;
+    padding-left: 500px;
+}
+
+#id2{
+    text-align: center;
+    color: rgb(192, 11, 11);
+    font-size: 40px;
+    margin-top: 20px;
+    text-shadow: #c51212;
+}
+
+#id3{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: start;
+    text-align: justify;
+    font-size: 20px;
+}
+#home{
+    background-color: palegoldenrod;
+    display:inline-block;
+}
+
+h3{
+    color:white;
+    padding-left: 40px; 
+  }
+
+#end{
+      background-color: black;
+      padding-top: 10px;
+      display:flex;
+      flex-flow:column;
+      margin-top: -10px;
+  }
+  h3{
+    margin-top: -20px;
+    color:white;
+    padding:40px; 
+  }
+  .footer p{
+    margin-top: -20px;
+    color: white;
+    font-size:15px;
+    float:left;
+    padding:40px;
+    text-align:left;
+    
+  }
+
+  /*-----------------------------------------------gallery---------------------------------------------*/
+
+
+  #gg1{
+    width: 398px;
+    height: 300px;
+  }
+  #gg2{
+      width: 398px;
+      height: 300px;
+  }
+  #gg3{
+    width: 398px;
+    height: 300px;
+}
+#gg4{
+    width: 295px;
+    height: 300px;
+}
+#gg5{
+    width: 400px;
+    height: 400px;
+}
+#gg6{
+    width: 545.5px;
+    height: 400px;
+}
+#gg7{
+    width: 545.5px;
+    height: 400px;
+}
+#gg8{
+    width: 498px;
+    height: 500px;
+}
+#gg9{
+    width: 498px;
+    height: 500px;
+}
+#gg10{
+    width: 498px;
+    height: 500px;
+}
+#gg11{
+    width: 498px;
+    height: 500px;
+}
+#gg12{
+    width: 498px;
+    height: 500px;
+}
+#gg13{
+    width: 498px;
+    height: 500px;
+}
+
+
+/*----------------------------------------------about---------------------------------------------*/
+
+
+#id4{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: start;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#img3{
+    width: 230px;
+    height: 270px;
+    border: 10px rgb(110, 109, 109);
+    border-top: 10px;
+}
+
+#id6{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: -20px;
+    text-align: start;
+    text-align: justify;
+    font-size: 20px;
+    float: left;
+    border: 10px rgb(15, 15, 15)
+}
+
+#id7{
+    padding-left: 245px;
+}
+
+
